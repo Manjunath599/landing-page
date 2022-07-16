@@ -1,0 +1,76 @@
+
+.flex {
+    display: flex;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.center-items {
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.direction-col {
+    flex-direction: column;
+}
+
+.flex-wrap{
+    flex-wrap: wrap;
+}
+
+.btn {
+    background-color: #64462f;
+    color: white;
+    padding: 6px 18px;
+    border: solid 2px white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mx-2 {
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+
+.px-1 {
+    padding-right: 113px;
+    line-height: 1.5;
+}
+
+.px-2 {
+    padding: 12px 17rem 35px 17rem;
+}
+
+.px-3{
+    padding-top: 5rem;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.tags{
+    font-size: 1.7rem;
+    margin: 20px auto;
+}
+
+.money-tag{
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.words{
+    padding: 0.5rem 5.8rem;
+    margin-bottom: 10px;
+}

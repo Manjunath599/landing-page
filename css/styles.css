@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    list-style: none;
+    margin: auto 12px;
+    cursor: pointer;
+}
+
+.container {
+    max-width: 80vw;
+    font-family: 'Ubuntu', 'sans-serif';
+    overflow: hidden;
+}
+
+.navbar {
+    height: 68px;
+}
+
+.logo {
+    font-size: 1.6rem;
+    color: #64462f;
+    font-weight: bolder;
+}
+
+.logo-img {
+    height: 508px;
+    width: 508px;
+}
+
+.img {
+    height: 585px;
+    width: 491px;
+    margin-top: 57px;
+    border-radius: 8px;
+}
+
+h1 {
+    color: #64462f;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+.section2 {
+    margin-top: 3rem;
+}
+
+.box-1 {
+    border: solid 2px #64462f;
+    width: 290px;
+    height: 282px;
+    border-radius: 5px;
+    margin: 18px auto;
+}
+
+.section3 {
+    margin-top: 4rem;
+}
+
+.socials {
+    width: 150px;
+    margin: 77px;
+    cursor: pointer;
+}
+
+.footer {
+    background-color: #64462f;
+    height: 150px;
+    color: white;
+    text-align: center;
+
+}
+
+@media (max-width : 1024px) {
+
+    .logo-img {
+        height: 408px;
+        width: 408px;
+    }
+
+    nav li button {
+        height: 30px;
+        width: 380px;
+        position: absolute;
+        left: 40px;
+        top: 74px;
+    }
+
+    .section2 p {
+        position: relative;
+        right: 210px;
+        width: 300px;
+    }
+
+    .topright img {
+        position: relative;
+        right: 410px;
+        bottom: 15px;
+        height: 380px;
+        width: 380px;
+    }
+
+    .section3 h2 {
+        margin-right: 100px;
+    }
+
+}
